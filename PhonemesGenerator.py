@@ -53,6 +53,7 @@ class Window(QtGui.QMainWindow):
         l1.setGeometry(450, 5, 300, 100)
         l2 = QtGui.QLabel(self)
         l2.setText('Script by Combo Studios.')
+        l2.setText('Script by ComboDev.')
         l2.setGeometry(445, 410, 300, 100)
 
         global AnimSets
@@ -76,9 +77,9 @@ class Window(QtGui.QMainWindow):
         }
         ''')
 
-        l3 = QtGui.QLabel(self)
-        l3.setText('Hey there! If you have the script, you are not allowed to share it unless, me, the creator says yes.')
-        l3.setGeometry(300, 100, 500, 100)
+        #l3 = QtGui.QLabel(self)
+        #l3.setText('Hey there! If you have the script, you are not allowed to share it unless, me, the creator says yes.')
+        #l3.setGeometry(300, 100, 500, 100)
 
 
 
