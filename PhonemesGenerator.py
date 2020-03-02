@@ -52,7 +52,6 @@ class Window(QtGui.QMainWindow):
         l1.setText('Animation Set Selected :')
         l1.setGeometry(450, 5, 300, 100)
         l2 = QtGui.QLabel(self)
-        l2.setText('Script by Combo Studios.')
         l2.setText('Script by ComboDev.')
         l2.setGeometry(445, 410, 300, 100)
 
