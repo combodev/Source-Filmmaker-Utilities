@@ -6,7 +6,7 @@
 #==========================
 #VARIABLES TO CHANGE!!!
 shadertype = "VertexLitGeneric"
-vmtparameters = [] #List of $ to add. Ex: "$alphatest" 1
+vmtparameters = ["$alphatest 1"] #List of $ to add. Ex: "$alphatest" 1
 materialcd = 'models/combodev/angelisland' #Path to textures
 #==========================
 import bpy
@@ -33,7 +33,7 @@ for mat in bpy.data.materials:
             #print(texname)
             #Okay, so you have the $basetexture right here.
             #Now for the converstion.
-            path = bpy.path.abspath("//MATS/") + materialcd
+            path = bpy.path.abspath("//materials/") + materialcd
             #print(path)
             try:
                 os.makedirs(path)
